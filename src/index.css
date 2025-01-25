@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import "tailwindcss";
+.wrapper {
+  @apply container mx-auto max-w-[1208px];
+}
+
+@theme{
+  --primary-color: #EAE5D4,
+  --secondary-color: #F2C40B,
+  --font-family: "Roboto", serif;
+}
